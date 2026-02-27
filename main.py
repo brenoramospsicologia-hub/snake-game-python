@@ -103,7 +103,6 @@ def jogar(velocidade_escolhida):
         pygame.display.update()
         relogio.tick(velocidade_escolhida) # Usa a velocidade que veio do menu
 
-# --- LOOP PRINCIPAL ---
 while True:
     vel = menu_inicial() # O menu retorna o número (10, 18 ou 30)
     jogar(vel)           # Passamos esse número para a função jogar
